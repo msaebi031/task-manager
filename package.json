@@ -1,0 +1,33 @@
+{
+  "name": "ali-qapuni",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.10",
+    "@mui/x-date-pickers": "^5.0.6",
+    "@reduxjs/toolkit": "^1.4.0",
+    "axios": "^1.1.3",
+    "date-fns": "^2.29.3",
+    "material-ui-color-picker": "^3.5.1",
+    "next": "12.3.1",
+    "next-redux-wrapper": "^6.0.2",
+    "react": "18.2.0",
+    "react-day-picker": "^8.3.5",
+    "react-dom": "18.2.0",
+    "react-redux": "^7.2.1",
+    "react-toastify": "^9.0.8"
+  },
+  "devDependencies": {
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1"
+  }
+}

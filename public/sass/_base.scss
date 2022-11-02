@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Mikhak-VF";
+  src: url("../font/Mikhak-VF.ttf"), url("../font/Mikhak-VF.ttf") format("ttf");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Mikhak-Medium";
+  src: url("../font/Mikhak-Medium.ttf"),
+    url("../font/Mikhak-Medium.ttf") format("ttf");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Mikhak-Bold";
+  src: url("../font/Mikhak-Bold.ttf"),
+    url("../font/Mikhak-Bold.ttf") format("ttf");
+  font-display: block;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mikhak-VF";
+  background: url("../img/bg.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.font-bold {
+  font-family: "Mikhak-Bold" !important;
+}
+
+.font-medium {
+  font-family: "Mikhak-Medium" !important;
+}
+
+//MUI
+.MuiInputBase-input {
+  padding: 16.5px 14px !important;
+  padding-right: 0 !important;
+}
+.MuiFormControl-root {
+  margin-bottom: 16px !important;
+}

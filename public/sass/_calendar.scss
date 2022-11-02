@@ -1,0 +1,54 @@
+// setting celender
+.bg-calendar {
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.19);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 7px;
+  width: 50%;
+  margin: 20px auto;
+}
+@media screen and (max-width: 1000px) {
+  .bg-calendar {
+    width: 80%;
+  }
+}
+
+.rdp {
+  --rdp-accent-color: #aa066c !important;
+}
+.rdp-months {
+  justify-content: center;
+}
+
+// Modals
+.style-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.911);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.19);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 7px;
+}
+
+// show parent
+.box-alert {
+  padding: 10px;
+  text-align: left;
+  border-radius: 10px;
+  // min-width: 150px;
+  max-width: 500px;
+  cursor: pointer;
+  div {
+    color: rgba(0, 0, 0, 0.795);
+  }
+  &:hover {
+    .tools-parent {
+      display: block;
+    }
+  }
+}
